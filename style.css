@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#painel{
+    background: black;
+    width: 400px;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#logo{
+    color: white;
+}
+
+#container{
+    top: 50%;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    flex-direction: column;
+}
+
+#usuario{
+    margin: 4px;
+    width: 300px;
+    height: 30px;
+}
+
+#senha{
+    margin: 4px;
+    width: 300px;
+    height: 30px;
+}
+
+#btn-Entar{
+    margin: 4px;
+    width: 70px;
+    height: 30px;
+    background: #63a0e6;
+    border-radius: 8px;
+    border: none;
+}
